@@ -25,4 +25,4 @@ runs:
       run: |
         npm ci
         echo "cache=`${{ inputs.caching }}`" >>GITHHUB_OUTPUT
-      shell: zsh
+      shell: bash
